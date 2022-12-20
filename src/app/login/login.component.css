@@ -1,0 +1,121 @@
+
+.login-bg {
+    height: 100vh;
+    width: auto;
+    padding: 0px;
+    display: block;
+    margin: 0 auto;
+    background:url('../../assets/image/bg2.png') no-repeat center center;
+}
+
+
+
+.app {
+  
+    height: 150vh;
+   
+  }
+  .stylebg{
+     
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 500% 400%;
+      animation: gradient 15s ease infinite;
+    }
+    @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  .bg-black{
+    background-color: rgba(2, 2, 15,.4);
+  }
+  .txt-black{
+    color: rgba(2, 2, 15,1);
+  }
+  
+  
+ 
+  
+  
+  .btn-pink-moon {
+    background: #ec008c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 1px solid rgb(229, 40, 150);
+  }
+  .custom-bg{
+    background-color: rgba(0, 0, 0, 0.447);
+  }
+  .darkbg{
+    background-color: rgb(2, 2, 15);
+    border: black;
+  }
+  .input-style{
+    /* background-color:rgba(26,29,36,255) ; */
+    max-width: 500px;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+  .input-style:focus{
+    /* background-color:rgba(26,29,36,255) ; */
+    border: 2px solid #0d0f10;
+    border-radius: 4px;
+    
+  }
+  
+  
+  .input-style:hover{
+    background-color:rgba(26,29,36,255) ;
+    border: 2px solid #04d9ff;
+    border-radius: 4px;
+    color: white;
+  
+  }
+  .centering{
+    max-width: 700px;
+   
+     /* Center vertically and horizontally */
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+   }
+   .height{
+    width: 100%;
+    height: 40px;
+   
+   }
+   .btnn{
+    color: white;
+    width: 80px;
+    height: 30px;
+    background-color: #1797d2;
+    border-radius: 8px;
+    border-color: #1797d2;
+   }
+   .heading{
+    font-size: large;
+   }
+
+
+.main_div {
+    position: relative;
+    height: 100vh;
+    width: auto;
+   
+}
+.bottom_div {
+    position: absolute;
+    bottom: 0px;
+    font-weight: 500;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
