@@ -1,0 +1,14 @@
+.bg-div{
+    
+        height: 100vh;
+        max-width: 100%;
+        padding: 0px;
+        display: block;
+        margin: 0 auto;
+        background-image:url('../../assets/image/front-bg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      
+      
+    
+}

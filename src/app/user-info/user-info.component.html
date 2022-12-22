@@ -1,0 +1,52 @@
+
+<div class="login-bg main_div">
+    
+    <div class="form-container profilepic mat-elevation-z5 text-center">
+        <div class="profile-image" >
+            <img width="120" height="120" [src]="profilePic">
+            <button style="width: 30px; height: 30px; background-color: transparent; border-radius: 12px;" (click)="inputField.click()">
+               <i class="fa-solid fa-pen-to-square"></i>
+            </button>
+        </div>
+        <input #inputField type="file" hidden>
+         <!-- (change)="uploadImage($event,user)"> -->
+    </div>
+
+    <div  class='container center_div text-dark bg-transparent'>
+      <div class='mb-5 bg-transparent'>
+        <div class='card-body p-5 bg-transparent'>
+   
+          <form   id="form_input">
+          
+      <div class="mb-3" id="formBasicEmail">
+        <label>Name:</label><br>
+        <input type="email" class='input-style height my-1 py-1 ' placeholder="  Enter email"/>
+
+
+      </div>
+      <div class="mb-3" id="formBasicEmail">
+        <label>Gender: </label>
+
+        <input type="radio" value="male" class='input-style mx-2 py-1 ' name="gender"/><label> Male</label>
+        <input type="radio" value="female" class='input-style mx-2 py-1 ' name="gender"/><label> Female</label>
+
+      </div>
+      <div class="mb-3" id="formBasicEmail">
+        <label>Age: </label>
+        <input type="number" class='input-style mx-2 py-1 ' name="age" min="1" max="100">
+      </div>
+      
+     
+      <div class="mb-3" id="formBasicPassword">
+        <label>Bio:</label><br>
+       <textarea class="input-style my-1 py-1" rows="4" cols="24"></textarea>
+      </div>
+
+      <a class="btn btn-pink-moon rounded center" [routerLink]="['/interest']">
+       Submit
+      </a>
+    </form>
+   
+  </div></div></div>
+ 
+</div>

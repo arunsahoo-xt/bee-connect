@@ -1,0 +1,191 @@
+
+.login-bg {
+    height: 100vh;
+    max-width: 100%;
+    padding: 0px;
+    display: block;
+    margin: 0 auto;
+    background-image:url('../../assets/image/info-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+  
+}
+
+
+
+.app {
+  
+    height: 150vh;
+   
+  }
+  .stylebg{
+     
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 500% 400%;
+      animation: gradient 15s ease infinite;
+    }
+    @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  .bg-black{
+    background-color: rgba(2, 2, 15,.4);
+  }
+  .txt-black{
+    color: rgba(2, 2, 15,1);
+  }
+  
+  
+ 
+  
+  
+  .btn-pink-moon {
+    background: #ec008c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 1px solid rgb(229, 40, 150);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+  .custom-bg{
+    background-color: rgba(0, 0, 0, 0.447);
+  }
+  .darkbg{
+    background-color: rgb(2, 2, 15);
+    border: black;
+  }
+  .input-style{
+    /* background-color:rgba(26,29,36,255) ; */
+    font-style: sans-serif;
+    max-width: 500px;
+    border: 2px solid rgb(240, 184, 30);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+  .input-style:focus{
+    /* background-color:rgba(26,29,36,255) ; */
+    border: 2px solid #fbfeff;
+    border-radius: 4px;
+    
+  }
+  
+  
+  .input-style:hover{
+    border: 2px solid #04d9ff;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+  }
+  .centering{
+    max-width: 700px;
+   
+     /* Center vertically and horizontally */
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+   }
+   .height{
+    width: 100%;
+    height: 40px;
+   
+   }
+   .btnn{
+    color: white;
+    width: 80px;
+    height: 30px;
+    background-color: #1797d2;
+    border-radius: 8px;
+    border-color: #1797d2;
+   }
+   .heading{
+    font-size: large;
+   }
+
+
+.main_div {
+    position: relative;
+    height: 100vh;
+    width: auto;
+   
+}
+.center_div {
+    position: fixed;
+    top: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-weight: 1000;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+
+}
+.input-design{
+ margin-left: 10px 
+}
+.footer{
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(255, 253, 253);
+}
+
+
+
+
+
+
+
+
+
+.profilepic{
+    position: fixed;
+    top: 10%;
+    left: 34%;
+    max-width: 400px;
+}
+.profilepic.h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.profile-image>img{
+    border: 5px solid rgb(250, 250, 250);
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile-image{
+    position: relative;
+    width: 120px;
+    margin: auto;
+}
+.profile-image>button{
+    position: absolute;
+    bottom:10px;
+    right:0;
+}
+.form-container{
+    max-width: 400px;
+}
+.row{
+    display: flex;
+    /* gap: 16px; */
+}
+
+
+
+
+
+
+
+

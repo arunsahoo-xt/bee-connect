@@ -5,7 +5,7 @@
     padding: 0px;
     display: block;
     margin: 0 auto;
-    background-image:url('../../assets/image/bg3.png');
+    background-image:url('../../assets/image/signup-bg.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
   
@@ -66,7 +66,7 @@
     /* background-color:rgba(26,29,36,255) ; */
     font-style: sans-serif;
     max-width: 500px;
-    border: 2px solid rgb(240, 184, 30);
+    border: 2px solid rgb(233, 166, 21);
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   }
@@ -118,7 +118,7 @@
 }
 .center_div {
     position: fixed;
-    top: 20%;
+    top: 30%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 1000;
     
@@ -132,14 +132,21 @@
  margin-left: 10px 
 }
 .footer{
-  position: absolute;
-  bottom: 15px;
+  position: fixed;
   width: 100%;
+  bottom: 15px;
   text-align: center;
   font-weight: 600;
-  color: rgb(255, 253, 253);
+  color: rgb(0, 0, 0);
 }
-
+.btn-golden {
+	
+	border:1px solid black;
+	
+	background: gold radial-gradient(lightyellow, gold);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(229, 40, 150);
+	}
 
 
 
